@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+
+}
+body {
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(203,40,40,1) 50%);
+    color: white;
+}
+.fotoperfil {
+    width: 100px;
+    font-size: 25px;
+    border: 5px solid whitesmoke;
+    border-radius: 50px 50px 30px;
+    box-shadow: 0px 0px 30px whitesmoke;
+    margin-bottom: 5px;
+}
+.perfil {
+    margin-top: 10px;
+    text-align: center;
+}
+.social {
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.social li {
+    list-style: none;
+}
+.social li a {
+    text-decoration: none;
+}
+.social li a img {
+    width: 50px;
+    padding: 0px 5px;
+}
+.botao1 {
+    padding: 0px;
+}
+.botao1 li {
+    list-style: none;
+    
+}
+.botao1 li a {
+    display: block;
+    color: rgb(131,58,180);
+    font-weight: bold;
+    background: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    margin: 10px 20px;
+    padding: 10px 20px;    
+    text-decoration: none;
+}
+.botao1 li a span {
+    color: gray;
+    display: block;
+}
+.botao2 {
+    padding: 0px;
+}
+.botao2 li {
+    list-style: none;
+}
+.botao2 li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;   
+    margin: 10px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.botao2 li a span {
+    color: gray;
+    display: block;
+}
+.rodape {
+    color: rgb(216, 27, 27);
+    text-align: right;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 25px;
+    margin-top: 3px;
+}
